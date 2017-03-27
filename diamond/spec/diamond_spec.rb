@@ -20,26 +20,26 @@ RSpec.describe "Diamond" do
   end
 
   def minimum_diamond
-    <<~EOD
-    A
+    <<-EOD
+A
     EOD
   end
 
   def two_level_diamond
-    <<~EOD
-     A
-    B B
-     A
+    <<-EOD
+ A
+B B
+ A
     EOD
   end
 
   def three_level_diamond
-    <<~EOD
-      A
-     B B
-    C   C
-     B B
-      A
+    <<-EOD
+  A
+ B B
+C   C
+ B B
+  A
     EOD
   end
 end
